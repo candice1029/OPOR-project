@@ -1,0 +1,37 @@
+---
+title: "Fig6"
+output: html_document
+date: "2024-12-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Generating Figure 6
+
+The clustering correlation heatmaps were generated using the provided data files and analyzed with the OmicStudio tools at OmicStudio.
+
+The following 9 data files were uploaded to OmicStudio:
+
+Metabolite and Correlation Data
+	1.	diff_micro_LEFSe20_Final-metab_S20_class32_amino_bile_corr.xlsx
+	2.	diff_micro_LEFSe20_Final-metab_S20_class32_amino_bile_pVal.xlsx
+	3.	diff_micro_LEFSe20_Final-metab_S20_class32_amino_bile_rho.xlsx
+
+KDA Metabolite Data
+4. 36_KDA_TPM10-metab_32_corr.xlsx
+5. 36_KDA_TPM10-metab_32_pVal.xlsx
+6. 36_KDA_TPM10-metab_32_rho.xlsx
+
+mRNA and Correlation Data
+7. diff_micro_LEFSe20_Final-mRNA_KDA10_corr.xlsx
+8. diff_micro_LEFSe20_Final-mRNA_KDA10_pVal.xlsx
+9. diff_micro_LEFSe20_Final-mRNA_KDA10_rho.xlsx
+
+
+Generated three heatmaps to represent the correlations :
+	•	Figure 6A: Correlation between gut microbiota and differential metabolites heatmap.
+	•	Figure 6B: Combined metabolome and transcriptome analysis. 
+	•	Figure 6C: Correlation of genus-level gut microbiota with 10 key driver genes. 

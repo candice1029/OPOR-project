@@ -1,0 +1,14 @@
+---
+title: "Fig2"
+output: html_document
+date: "2024-12-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Generating Figure 2 from "serum metabolome.xlsx"
+
+
+The dataset “serum metabolome.xlsx” was uploaded to the BGI Biosys platform for processing and analysis. The analysis generated Figure 2, which visualizes the metabolic differences between OP (obesity-prone) and OR (obesity-resistant) groups.

@@ -1,0 +1,18 @@
+---
+title: "Fig4"
+output: html_document
+date: "2024-12-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Data Source
+
+The expression profiles of mRNAs in the colon of HFD-induced C57BL/6J mice were deposited into the Gene Expression Omnibus (GEO) database under accession number GSE249390.
+	•	Access URL: GSE249390
+	
+Generating Figure 4
+
+The downloaded GSE249390 dataset was uploaded to the BGI Biosys online platform for analysis. This analysis generated Figure 4, visualizing mRNA expression profiles and their biological relevance.

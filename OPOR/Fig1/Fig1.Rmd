@@ -1,0 +1,30 @@
+---
+title: "Fig1"
+output: html_document
+date: "2024-12-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Generating Figure 1 Using MicrobiomeAnalyst
+(https://www.microbiomeanalyst.ca/MicrobiomeAnalyst/ModuleView.xhtml)
+
+This analysis uses the MicrobiomeAnalyst web platform to upload three data files and generate Figure 1.
+
+# 1. File Preparation
+
+The following files were uploaded to MicrobiomeAnalyst:
+	1.	micro_S5w.csv - Microbial abundance data.
+	2.	SampleInfoOPOR5ws.csv - Sample metadata file.
+	3.	taxonomy.csv - Taxonomy information.
+	
+	
+# 2. Analysis Steps
+
+On the MicrobiomeAnalyst platform:
+	1.	Data Upload: Import the three files into the corresponding input fields.
+	2.	Visualization:
+	•	Generate Alpha Diversity and Beta Diversity plots to explore microbial diversity.
+	•	Generate LEfSe bar plots to illustrate the differences in microbial composition between groups

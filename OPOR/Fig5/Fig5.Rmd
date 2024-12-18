@@ -1,0 +1,18 @@
+---
+title: "Fig5"
+output: html_document
+date: "2024-12-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Generating Figure 5 from “QPCR.xlsx”
+
+The dataset QPCR.xlsx was analyzed and visualized using GraphPad Prism software to generate Figure 5.
+
+
+Data Upload and Processing
+	•	The file QPCR.xlsx contains qPCR results.
+	•	Uploaded the file to GraphPad Prism for statistical analysis and visualization.
